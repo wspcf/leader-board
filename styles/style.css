@@ -155,6 +155,7 @@ hr {
   color: var(--cthree);
   margin-bottom: 40px;
   margin-top: 5px;
+  margin-left: 25px;
 }
 .lc_container {
   display: flex;

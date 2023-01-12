@@ -17,12 +17,16 @@
   }
   .tp_content {
     grid-template-columns: repeat(1, 1fr);
+    margin-left: 90px;
+  }
+  .tp_player {
   }
   .tp_blogs {
     grid-template-columns: repeat(1, 1fr);
   }
   .lc_container {
     flex-direction: column;
+    margin-left: 50px;
   }
 }
 /* CODE END */
