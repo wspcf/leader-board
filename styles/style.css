@@ -32,9 +32,19 @@ body {
   align-items: center;
   height: 95px;
 }
+.hc_logo {
+  display: flex;
+  align-items: center;
+}
+.hc_logo p {
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--cwhite);
+}
 .hc_logo img {
   width: 41px;
   height: 51px;
+  margin-right: 20px;
 }
 .hc_menu {
   display: flex;
@@ -63,7 +73,7 @@ body {
 .top_players {
   background-color: var(--cwhite);
   padding: 30px;
-  border-radius: 5px;
+  border-radius: 10px 10px 0px 0px;
 }
 .top_players h2 {
   font-size: 24px;
@@ -95,6 +105,7 @@ hr {
 .top_blogs {
   background-color: var(--cwhite);
   padding: 5px 30px;
+  border-radius: 0px 0px 10px 10px;
 }
 .top_blogs h2 {
   font-size: 24px;
@@ -135,6 +146,9 @@ hr {
 .lates_course {
   background-color: var(--cwhite);
   margin-top: 40px;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 50px;
 }
 .lates_course h2 {
   font-size: 24px;
@@ -142,11 +156,39 @@ hr {
   margin-bottom: 40px;
   margin-top: 5px;
 }
+.lc_container {
+  display: flex;
+  justify-content: space-between;
+}
 .lc_content {
+  margin-right: 50px;
+  box-shadow: 0 6px 16px rgb(0 0 0 / 15%);
+  border-radius: 10px;
+  padding: 20px;
 }
 .lc_course_thumbnail {
 }
 .lc_course_thumbnail img {
-  width: 224px;
-  height: 104px;
+  width: 320px;
+  height: 175px;
+}
+.lc_course_info {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.unfilled {
+  color: #aeaeae;
+}
+.lc_course_duration {
+  background-color: #ffe4e8;
+  padding: 0px 10px;
+  border-radius: 15px;
+  color: var(--ctwo);
+  font-size: 15px;
 }

@@ -9,5 +9,20 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .header {
+    width: 100%;
+  }
+  .header_content {
+    width: 100%;
+  }
+  .tp_content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .tp_blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .lc_container {
+    flex-direction: column;
+  }
 }
 /* CODE END */
